@@ -33,7 +33,12 @@ app.use('/api/v1/bootcamps', bootcamps)
 const PORT = process.env.PORT || 5000
 const server = app.listen(
   PORT,
-  console.log(`😀 server running in ${process.env.NODE_ENV} on ${process.env.PORT}`.yellow.bold)
+  console.log(
+    `💛 server running in`,
+    `${process.env.NODE_ENV}`.yellow.bold,
+    `environment on port`,
+    `${process.env.PORT}`.yellow.bold
+  )
 )
 
 // Handle promise rejections
