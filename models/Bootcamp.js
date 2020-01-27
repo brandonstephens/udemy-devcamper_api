@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const BootcampSchema = new mongoose.Shema({
+const BootcampSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, 'Name is required'],
@@ -86,11 +86,6 @@ const BootcampSchema = new mongoose.Shema({
     type: Date,
     default: Date.now,
   },
-  user: {
-    type: mongoose.Schema.ObjectId,
-    ref: 'User',
-    required: true,
-  },
 })
 
-module.exports = mongoose.module('Bootcamp', BootcampSchema)
+module.exports = mongoose.model('Bootcamp', BootcampSchema)

@@ -1,6 +1,7 @@
 # Udemy - Dev Camper API
 
 <https://www.udemy.com/course/nodejs-api-masterclass/>
+<https://github.com/bradtraversy/devcamper-api>
 
 ## Setup
 
