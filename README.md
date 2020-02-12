@@ -8,6 +8,8 @@
 1. touch `./config/config.env`
 2. update local `config.env` (DO NOT COMMIT TO REPO)
 
+example config
+
 ```
 NODE_ENV=development
 PORT=5000
