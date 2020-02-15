@@ -13,9 +13,17 @@ example config
 ```
 NODE_ENV=development
 PORT=5000
+
 MONGO_URI=mongodb+srv://devcamper:<password>@devcamper-xtc2h.mongodb.net/devcamper
+
+GEOCODER_PROVIDER=mapquest
+GEOCODER_API_KEY=KEY
 ```
 
 1. `nvm use`
 1. `npm install`
 1. `npm run dev`
+
+## 3rd Party APIs
+
+[Mapquest](https://developer.mapquest.com/user/me/apps)
