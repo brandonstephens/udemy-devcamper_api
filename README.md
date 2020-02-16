@@ -24,6 +24,20 @@ GEOCODER_API_KEY=KEY
 1. `npm install`
 1. `npm run dev`
 
+## Database Seeder
+
+seed data
+
+```
+node seeder -i
+```
+
+delete data
+
+```
+node seeder -d
+```
+
 ## 3rd Party APIs
 
 [Mapquest](https://developer.mapquest.com/user/me/apps)
