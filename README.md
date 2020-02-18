@@ -18,6 +18,9 @@ MONGO_URI=mongodb+srv://devcamper:<password>@devcamper-xtc2h.mongodb.net/devcamp
 
 GEOCODER_PROVIDER=mapquest
 GEOCODER_API_KEY=KEY
+
+FILE_UPLOAD_PATH=./public/uploads
+FILE_UPLOAD_MAX=1000000
 ```
 
 1. `nvm use`
