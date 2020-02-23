@@ -5,27 +5,14 @@
 
 ## Setup
 
-1. touch `./config/config.env`
-2. update local `config.env` (DO NOT COMMIT TO REPO)
+**DO NOT COMMIT `config.env` TO REPO**
 
-example config
+1. cp `config.env.example` `config.env`
+2. update the contents of `config.env`
 
-```
-NODE_ENV=development
-PORT=5000
-
-MONGO_URI=mongodb+srv://devcamper:<password>@devcamper-xtc2h.mongodb.net/devcamper
-
-GEOCODER_PROVIDER=mapquest
-GEOCODER_API_KEY=KEY
-
-FILE_UPLOAD_PATH=./public/uploads
-FILE_UPLOAD_MAX=1000000
-```
-
-1. `nvm use`
-1. `npm install`
-1. `npm run dev`
+3. `nvm use`
+4. `npm install`
+5. `npm run dev`
 
 ## Database Seeder
 
