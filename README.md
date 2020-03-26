@@ -1,4 +1,6 @@
-# Udemy - Dev Camper API
+# Udemy - DevCamper API
+
+API for DevCamper application from Udemy Node.js Masterclass.
 
 <https://www.udemy.com/course/nodejs-api-masterclass/>
 <https://github.com/bradtraversy/devcamper-api>
@@ -13,6 +15,14 @@
 3. `nvm use`
 4. `npm install`
 5. `npm run dev`
+
+## Production
+
+```
+npm start
+```
+
+### Version: 1.0.0
 
 ## Database Seeder
 
