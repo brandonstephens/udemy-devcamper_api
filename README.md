@@ -18,9 +18,14 @@ API for DevCamper application from Udemy Node.js Masterclass.
 
 ## Production
 
+[Droplet Setup](https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896)
+
 ```
 npm start
 ```
+
+Process Managment PM2
+<https://pm2.keymetrics.io/docs/usage/process-management/>
 
 ### Version: 1.0.0
 
@@ -49,3 +54,4 @@ node seeder -d
 ## 3rd Party APIs
 
 [Mapquest](https://developer.mapquest.com/user/me/apps)
+[MailTrap]https://mailtrap.io
