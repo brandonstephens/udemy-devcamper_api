@@ -28,6 +28,14 @@ delete data
 node seeder -d
 ```
 
+## Generate Docs
+
+1. Install - <https://github.com/thedevsaddam/docgen>
+2. Export json from Postman
+3. `docgen build -i dc.postman_collection.json -o index.html`
+4. copy `index.html` to `/public` dir
+5. replace `../fonts` with `/fonts` in `index.html
+
 ## 3rd Party APIs
 
 [Mapquest](https://developer.mapquest.com/user/me/apps)
